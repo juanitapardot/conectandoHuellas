@@ -1,0 +1,124 @@
+body {
+  background-color: #eceaeb;
+}
+.centradotabla {
+  margin: 0 auto;
+  background-color: #eceaeb;
+}
+.titulo {
+  font-family: "Manjari", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #010000;
+}
+.pop{
+  color:#fff!important;
+}
+.descripcion {
+  font-family: "Chilanka", cursive;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  color: #010000;
+}
+
+.informacion {
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  color: #615f60;
+}
+.formulario {
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.contenido {
+  background: #fff;
+  width: 760px;
+  margin: 0 auto;
+}
+input {
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  border-color: #615f60;
+  border-radius: 5px;
+  height: 30px;
+}
+input[type="range"] {
+  width: 20em;
+  height: 0.5em;
+  display: block;
+  -webkit-appearance: none;
+  background-image: linear-gradient(to right, #426eff 50%, #426eff 0);
+}
+.img {
+  height: 250px;
+  width: 250px;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  margin: 0;
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  border-color: #615f60;
+  border-radius: 5px;
+}
+.boton {
+  border-color: #29a1dd;
+  width: 150px;
+  height: 30px;
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #29a1dd;
+}
+#felicitaciones1 img{
+  width: 200px;
+  float: left;
+}
+/* Modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background: rgba(98,183,203,1);
+background: -moz-linear-gradient(left, rgba(98,183,203,1) 0%, rgba(124,215,236,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(98,183,203,1)), color-stop(100%, rgba(124,215,236,1)));
+background: -webkit-linear-gradient(left, rgba(98,183,203,1) 0%, rgba(124,215,236,1) 100%);
+background: -o-linear-gradient(left, rgba(98,183,203,1) 0%, rgba(124,215,236,1) 100%);
+background: -ms-linear-gradient(left, rgba(98,183,203,1) 0%, rgba(124,215,236,1) 100%);
+background: linear-gradient(to right, rgba(98,183,203,1) 0%, rgba(124,215,236,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62b7cb', endColorstr='#7cd7ec', GradientType=1 );
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 600px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.cerrar {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

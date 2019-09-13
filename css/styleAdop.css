@@ -1,0 +1,179 @@
+/*----- HEADER----- */
+#header {
+    height: 80px;
+    background-color: #2C2B2B;
+    box-shadow: 0px 0px 7px black;
+     position: relative;
+  }
+  #logo {
+    float: left;
+    padding: 10px;
+  }
+  #menu {
+    float: right;
+    margin: 24px;
+  }
+  #menu hr{
+    display: block;
+  }
+  #menu a {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+  }
+  table img {
+    width: 40px; 
+    height: 40px;
+  
+  }
+  /*-------- FIN HEADER------*/
+
+
+/* clase para la imagen principal*/
+.adopTitulo{
+    position: relative;
+    background-image: url(../img/perroJardin.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;    
+}
+
+/* Clase para el texto de la imagen */
+.adopText{
+    float:right;
+    margin: 0px 10px 0px 10px;
+    width: 3%;    
+}
+
+/* clase para el titulo de la imagen principal */
+.h1AdopI{
+    color: aliceblue;
+    font-family: 'Manjari', sans-serif;
+    font-size: 70px;
+}
+
+
+/* Clase del contador */
+.contadorAdop{
+    position: absolute;
+    border: 2px solid rgb(10, 233, 222);
+    background-color:#7BD7EB;
+    width: 250px;
+    height: 100px;
+    bottom: 0;
+    right: 20%;
+}
+/* tabla del contenedor */
+.tablaAdop{
+    border: 2px solid transparent;
+    width: 250px;
+    height: 100px;
+}
+
+/* imagen del contador */
+.imgAdop{
+    width: 100px;
+    height: 90px;
+}
+
+/* Clase para el numero del contador */
+.h2Adop{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Manjari', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+/* Clase para el texto del contador */
+.h3Adop{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Manjari', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+/* ----------------------------------------------------- */
+
+/* Efecto de fondo */
+.parallax{
+    /* imagen para el parallax */
+    background-image: url(../img/paticas.png);
+    /* medida */
+    min-height: 500px;
+    /* para que funcione el parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/* Grilla de las imagenes */
+.grid-container {
+    display: grid;
+    grid-gap: 10px 30px;
+    grid-template-columns: auto auto auto;
+    background-color:transparent;
+    /* border: 1px solid black; */
+    padding: 10px;
+    justify-content: center;
+}
+/* Clase de los items de la grilla */
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    justify-items: auto;
+}
+
+/* Clase de las imagenes dentro de la grilla */
+.imgP{
+      width: 300px;
+      height: auto;
+}
+
+/* ----------------------------------------------------- */
+
+/* Fondo de la tabla*/
+.adopTU{
+    background-color: #D1CDCE;
+    width: 100%;
+    height: 200px;
+    background-size: cover;  
+}
+
+/* Tabla TU */
+.tablaTU{
+    border: 2px solid transparent;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    top: 50px;
+}
+
+/* Clase de las imagenes de la ultima tabla  */
+.imgTU{
+    width: 130px;
+    height: 130px;
+    padding: 40px;
+}
+
+/* ----------------------------------------------------- */
+
+/* Clase del Chat */
+.chat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: none;
+}
+
+
+
+
+
+
+
+
+

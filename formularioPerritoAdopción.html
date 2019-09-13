@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/styleFormularios.css" />
+  <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet" />
+  <title>Formulario Perrito en adopcion</title>
+</head>
+
+<body>
+  <header></header>
+  <div class="contenido">
+    <table class="centradotabla">
+      <tr>
+        <td><img class="img" src="img/PerroEnAdopcion.png" alt="logo formulario" /></td>
+        <td>
+          <h1 class="titulo">Un perrito busca un hogar</h1>
+          <p class="descripcion">
+            Sabemos que aunque amas a este angelito, no puedes conservarlo,
+            por eso te damos gracias por darle una oportunidad de encontrar un nuevo hogar.
+            Compartiremos esta información y trabajaremos en conjunto para que nuestro amiguito pronto
+            encuentre su nueva familia.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <form action="">
+    <table class="formulario">
+      <tr>
+        <td>
+          <h1 class="informacion">Nombres del perrito *</h1>
+          <input id="nombre" type="text" name="nombrePerrito" placeholder="Ingresa el nombre de perrito"
+            autofocus="autofocus" required class="form" />
+            <br>
+            <small id="mensajenombre"></small>
+          <h1 class="informacion">Edad de perrito *</h1>
+          <input id="edad" type="text" name="edadPerrito" placeholder="Ingresa la edad del perrito" required class="form"/>
+          <br>
+            <small id="mensajeedad"></small>
+          <h1 class="informacion">¿El perrito esta vacunado?*</h1>
+          <label><input id="cbox1" type="radio" name="opcion" value="first_checkbox"> Si</label><br>
+
+          <input type="radio" id="cbox1" name="opcion" value="second_checkbox"> <label for="cbox2">No</label>
+
+
+          <h1 class="informacion">Historia de adopción*</h1>
+          <textarea name="historiaAdopcion" class="form" id="historiaAdopcion" cols="30" rows="10" maxlength="280"
+            placeholder="Cuentanos la historia del perrito"></textarea>
+            <br>
+            <small id="mensajehistoriaAdopcion"></small>
+          <h1 class="informacion">Teléfono*</h1>
+          <input id="telefono" type="text" class="form" name="telefonoAdoptante" placeholder="Ingresa tu teléfono" required />
+          <br>
+            <small id="mensajetelefono"></small>
+          <h1 class="informacion">Correo electrónico*</h1>
+          <input id="email" class="form" type="email" name="emailPadrino" placeholder="Ingresa tu E-mail" required />
+          <br> </br>
+          <button class="boton" id="enviar">Postularme</button>
+
+        </td>
+      </tr>
+    </table>
+  </form>
+  <div id="felicitaciones1"  class="modal">
+      <div class="modal-content">
+          <span class="cerrar">&times;</span>
+    <img src="img/perrito.svg" alt="perrito">
+    <h1 class="titulo pop">Futuro Padre</h1>
+    <p  class="informacion pop">Ya casi terminas el proceso de adopción, tu formulario va a ser 
+        evaluado para garantizar que este lindo perro quede en muy buenas
+        manos. <br>¡Nos comunicaremos muy pronto!</p>
+
+    <a href="index.html"><button class="boton">Gracias</button></a>
+    </div>
+</div>
+<script src="js/modal.js"></script>
+<script src="js/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+*:focus {
+  outline: none;
+}
+body {
+  display: inline-block;
+  margin: 0px;
+  margin-top: -20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+/* ESTILOS DEL HEADER 
+.barra {
+  display: grid;
+  grid-template-columns: 40% 3fr;
+  grid-gap: 0px;
+  background-color: #282828;
+  height: 100px;
+  box-shadow: 0px 8px 8px black ;
+}
+.logo {
+  padding: 15px 10px 10px 10px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas: "adoptar apadrinar donar";
+}
+.menuHeader {
+  font-family: 'Manjari', sans-serif;
+  color: white;
+  font-size: 12;
+  width: 250px;
+  background-color: #282828;
+  border: none;
+}
+.menuHeader img {
+  margin: 0 auto;
+  float: left;
+  width: 40px;
+  padding: 7px 0px 0px 31px;
+}
+button:hover{
+  font-family: 'Manjari', sans-serif;
+  color: #7cd9eb;
+  font-size: 12;
+  width: 250px;
+  background-color: #282828;
+  border: none;
+}
+ FIN ESTILOS DEL HEADER */
+
+/* ESTILOS DEL BANNER */
+.carrusel {
+  background-image: url(../img/perrojardin.jpg);
+  height: 700px;
+  padding: -100px 0px 0px 0px;
+  margin: 0 auto;
+}
+.textoSlider {
+  text-align: right;
+  padding: 0px 100px 0px 0px;
+  vertical-align: middle;
+}
+/*----- HEADER----- */
+#header {
+  height: 80px;
+  background-color: #2C2B2B;
+  box-shadow: 0px 0px 7px black;
+   position: relative;
+}
+#logo {
+  float: left;
+  padding: 10px;
+}
+#menu {
+  float: right;
+  margin: 24px;
+}
+#menu hr{
+  display: block;
+}
+#menu a {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-decoration: none;
+  font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+table img {
+  width: 40px; 
+  height: 40px;
+
+}
+/*-------- FIN HEADER------*/
+/*-----FOOTER----- */
+.footer {
+  display: grid;
+  background-color: #000000;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.desarrollado {
+  color: #7bd7e4;
+  font-family: "Manjari", sans-serif;
+  text-align: left;
+  display: table;
+}
+.i {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo {
+  order: 1;
+}
+.centradoimg {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 70px;
+}
+/*-----FIN FOOTER----- */

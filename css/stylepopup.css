@@ -1,0 +1,117 @@
+/*----- HEADER----- */
+#header {
+    height: 80px;
+    background-color: #2C2B2B;
+    box-shadow: 0px 0px 7px black;
+     position: relative;
+  }
+  #logo {
+    float: left;
+    padding: 10px;
+  }
+  #menu {
+    float: right;
+    margin: 24px;
+  }
+  #menu hr{
+    display: block;
+  }
+  #menu a {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+  }
+  table img {
+    width: 40px; 
+    height: 40px;
+  
+  }
+ /* Estilo de la grilla */
+.grid {
+    padding:  0px 100px 0px 100px;
+    display: grid;
+    grid-gap:20px;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"perrito1 perrito2 perrito3"
+						"perrito4 perrito5 perrito6"
+						"perrito7 perrito8 perrito9"
+                        "perrito10 perrito11 perrito12";
+    justify-items: center;
+    align-items: center;
+}
+.grid img{
+    width: 300px;
+	
+}
+.fotoGrilla{
+    float:left;
+    padding-right: 30px;
+
+}
+/* Estilo de POP UP MOISES */
+.popUp {
+    position: fixed;
+    width: 800px; 
+    height: 400px; 
+    top: 0; 
+    left: -250; 
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    font-weight: normal; 
+    border:  rgb(240, 240, 240) 20px solid; 
+    background-color: rgb(240, 240, 240); 
+    color: #000000; 
+    display:none;
+}
+.nombrePerrito{
+    font-family: 'Chilanka', cursive;
+    font-size: 40;
+    text-align: center;
+}
+.raza{
+    font-family: 'Chilanka', cursive;
+    font-size: 25;
+	text-align: center;
+	
+}
+.popUp h2{
+    font-family: 'Chilanka', cursive;
+    margin-left: 20px;
+}
+.popUp p{
+    font-family: 'Chilanka', cursive;
+    font-size: 16;
+	text-align: justify;
+}
+.popUp a{
+    font-family: 'Chilanka', cursive;
+    color: #7CD7EC;	
+	font-size: 16;
+}
+/* FIN Estilo de POP UP MOISES */
+.buttonPerrito{
+    float: none;
+    text-align: center;
+}
+button{
+    font-family: 'Chilanka', cursive;
+    font-size: 16;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(240, 240, 240);
+    border: solid 1px gray;
+}
+
+button:hover{
+    font-family: 'Chilanka', cursive;
+    font-size: 16;
+    color: rgb(28, 188, 209);
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(240, 240, 240);
+    border: solid 1px rgb(28, 188, 209);
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,129 @@
+/*estilos CSS*/
+/*estilo letra para los titulos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo {
+    font-family: 'Manjari', sans-serif;
+}
+
+/*estilo de letra para los parrafos*/
+.parrafo{
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+}
+
+.header{
+    font-family: 'Manjari', sans-serif; 
+    background:#282828;
+} 
+
+.menuHeader{
+    font-size: 20px;
+    color: white;
+    font-family: 'Manjari', sans-serif; 
+}
+
+.logo{
+    font-size: 20px;
+    color: white;
+    font-family: 'Manjari', sans-serif; 
+}
+
+/* .footer{
+    font-family: 'Manjari', sans-serif;
+    Background: #000000;
+    color:#7BD7E4;
+} */
+/*estilos grid*/
+.perfilPerro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: justify;
+    justify-items: center; 
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;   
+}
+.principal{
+    width: 900px;
+    margin: 0 auto;
+}
+.perfilPerro img{
+    width: 300px;
+    margin: 20px;
+}
+.perfilText{
+    line-height: 30px;
+}
+.boton {
+    border-color: #29a1dd;
+    width: 150px;
+    height: 30px;
+    font-family: "Manjari", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #29a1dd;
+  }
+  .grisfondo{
+      padding: 20px;
+      background: #E5E5E5;
+  }
+  .videoperfil{
+    padding:20px;
+      text-align: center;
+      display: block;
+  }
+  .centrarbotones{
+      margin: 0 auto;
+      padding: 20px;
+  }
+  .chat{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      border: none;
+  }
+
+  
+/*-----FOOTER----- */
+.footer {
+    display: grid;
+    background-color: #000000;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .desarrollado {
+    color: #7bd7e4;
+    font-family: "Manjari", sans-serif;
+    text-align: left;
+    display: table;
+  }
+  .i {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    order: 1;
+  }
+  .centradoimg {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 70px;
+  }
+  /*-----FIN FOOTER----- */
+  

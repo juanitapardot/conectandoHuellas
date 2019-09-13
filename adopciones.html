@@ -1,0 +1,383 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adopciones</title>
+    <link href="https://fonts.googleapis.com/css?family=Manjari:100,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+    <!--por favor poner nombre del archivo css-->
+    <link rel="stylesheet" href="css/styleAdop.css">
+    <link rel="stylesheet" href="css/stylePopUp.css">
+</head>
+​
+
+<body>
+    <div id="header">
+        <div id="logo"><a href="index.html"><img height="60" src="img/logoHeader.png" alt="logo"></a></div>
+        <div id="menu">
+            <table class="headerimg">
+                <tr>
+                    <td><img src="img/perritoAdoptarBlanco.svg" alt="imgh1"><a
+                            href="formularioQuieroAdoptar.html">Adoptar</a></td>
+                    <td><img src="img/perritoApadrinarBlanco.svg" alt="imgh2"><a
+                            href="formularioQuieroApadrinar.html">Apadrinar</a></td>
+                    <td><img src="img/perritoDonarrBlanco.svg" alt="imgh3"><a 
+                            href="https://www.pse.com.co/inicio">Donar</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="adopTitulo">
+        <div class="adopText">
+            <h1 class="h1AdopI">Adóptame</h1>
+        </div>
+        <div class="contadorAdop">
+            <table class="tablaAdop">
+                <tr>
+                    <td>
+                        <img class="imgAdop" src="img/contadorPerritosA.png" alt="Cara de un lindo perrito">
+                    </td>
+                    <td>
+                        <h3 class="h2Adop"><span id="mostrar">203</span></h3>
+                        <h3 class="h3Adop">Perros con hogar</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <div class="parallax">
+        <div class="grid-container">
+            <div class="grid-item"><img class="imgP" src="img/moises.jpg" alt="perrito1" onclick=mostrarVentana1()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/suara.jpg" alt="perrito2" onclick=mostrarVentana2()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/malu.jpg" alt="perrito3" onclick=mostrarVentana3()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/mila.jpg" alt="perrito4" onclick=mostrarVentana4()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/dante.jpg" alt="perrito5" onclick=mostrarVentana5()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/lupe.jpg" alt="perrito6" onclick=mostrarVentana6()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/ramon.jpg" alt="perrito7" onclick=mostrarVentana7()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/sherlock.jpg" alt="perrito8"
+                    onclick=mostrarVentana8()></div>
+            <div class="grid-item"><img class="imgP" src="img/tatto.jpg" alt="perrito9" onclick=mostrarVentana9()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/beny.jpg" alt="perrito10" onclick=mostrarVentana10()>
+            </div>
+            <div class="grid-item"><img class="imgP" src="img/chester.jpg" alt="perrito11"
+                    onclick=mostrarVentana11()></div>
+            <div class="grid-item"><img class="imgP" src="img/sam.jpg" alt="perrito12" onclick=mostrarVentana12()>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="adopTU">
+        <table class="tablaTU">
+            <tr>
+                <td><a href="formularioQuieroAdoptar.html" target="blank"><img class="imgTU"
+                            src="img/Component 3adoptarBtn.png" alt="Huellita de adoptar"></a></td>
+                <td><a href="formularioQuieroApadrinar.html" target="blank"><img class="imgTU"
+                            src="img/Component 4apadrinarBtn.png" alt="Huellita de apadrinar"></a></td>
+                <td><a href="formularioPerritoAdopcion.html" target="blank"><img class="imgTU"
+                            src="img/Component 3entregameBtn.png" alt="Huellita de entrégame"></a></td>
+                <td><img class="imgTU" src="img/Component 5donarBtn.png" alt="Huellita de donar"></a></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    ​
+    <!-- divs para pop_up de cada perrito -->
+    <div class="popUp" id="divPerrito1">
+        <div class="fotoGrilla"><img src="img/moises.jpg" alt="perrito1" /></div>
+        <div class="popUpPerritos">
+            <span class="close1" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Moisés</h2>
+            <h2>Criollo, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <br>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+            </p>
+            <a href="moises.html"><b>Conoce más ...</b></a>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="popUp" id="divPerrito2">
+        <div class="fotoGrilla"><img src="img/suara.jpg" alt="perrito2" /></div>
+        <div class="popUpPerritos">
+            <span class="close2" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Suara</h2>
+            <h2>Criolla, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <p>Fue abandonada al nacer y aunque fue adoptada, nuevamente fue maltratada. Sin embargo, esto no frenó su
+                impulso de
+                vivir y aunque hubo dificultades, hoy es una linda perrita llena de magia, ternura y mucho juego para
+                compartir.
+                <br> <br>
+                <a href="suara.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito3">
+        <div class="fotoGrilla"><img src="img/malu.jpg" alt="perrito3" /></div>
+        <div class="popUpPerritos">
+            <span class="close3" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Malú</h2>
+            <h2>Labradora, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+
+            <p>Fue encontrada en el costado de una vía muy mal herida. Era explotada para tener muchas crías. Pero
+                aunque parecía que no había oportunidad,
+                Malú aún tenía mucho amor por compartir y con valentía superó la adversidad.
+                <br> <br>
+                <a href="malu.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito4">
+        <div class="fotoGrilla"><img src="img/mila.jpg" alt="perrito4" /></div>
+        <div class="popUpPerritos">
+            <span class="close4" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Mila</h2>
+            <h2>Labradora, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+                <br> <br>
+                <a href="mila.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito5">
+        <div class="fotoGrilla"><img src="img/dante.jpg" alt="perrito5" /></div>
+        <div class="popUpPerritos">
+            <span class="close5" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Dante</h2>
+            <h2>Criollo, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <br>
+            <p>Fue abandonada al nacer y aunque fue adoptada, nuevamente fue maltratada. Sin embargo, esto no frenó su
+                impulso de vivir
+                y aunque hubo dificultades, hoy es una linda perrita llena de magia, ternura y mucho juego para
+                compartir.
+                <br><br>
+                <a href="dante.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito6">
+        <div class="fotoGrilla"><img src="img/lupe.jpg" alt="perrito6" /></div>
+        <div class="popUpPerritos">
+            <span class="close6" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Lupe</h2>
+            <h2>Criollo, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <br>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+                <br> <br>
+                <a href="lupe.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito7">
+        <div class="fotoGrilla"><img src="img/ramon.jpg" alt="perrito7" /></div>
+        <div class="popUpPerritos">
+            <span class="close7" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Ramón</h2>
+            <h2>Labrador, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+                <br><br>
+                <a href="ramon.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito8">
+        <div class="fotoGrilla"><img src="img/sherlock.jpg" alt="perrito8" /></div>
+        <div class="popUpPerritos">
+            <span class="close8" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Sherlock</h2>
+            <h2>Criollo, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <p>Fue abandonada al nacer y aunque fue adoptada, nuevamente fue maltratada. Sin embargo, esto no frenó su
+                impulso
+                de vivir y aunque hubo dificultades, hoy es una linda perrita llena de magia, ternura y mucho juego para
+                compartir.
+                <br><br>
+                <a href="sherlock.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito9">
+        <div class="fotoGrilla"><img src="img/tatto.jpg" alt="perrito9" /></div>
+        <div class="popUpPerritos">
+            <span class="close9" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Tatto</h2>
+            <h2>Labrador, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <br>
+            <p>Fue encontrado en el costado de una vía muy mal herida. Era explotada para tener muchas crías. Pero
+                aunque parecía que no había oportunidad,
+                aún tenía mucho amor por compartir y con valentía superó la adversidad.
+                <br> <br>
+                <a href="tatto.html">Conoce más...</a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito10">
+        <div class="fotoGrilla"><img src="img/IMG/beny.jpg" alt="perrito10" /></div>
+        <div class="popUpPerritos">
+            <span class="close10" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Beny</h2>
+            <h2>Criollo, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+                <br><br>
+                <a href="beny.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito11">
+        <div class="fotoGrilla"><img src="img/IMG/chester.jpg" alt="perrito11" /></div>
+        <div class="popUpPerritos">
+            <span class="close11" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Chester</h2>
+            <h2>Criollo, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <br>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+                <br><br>
+                <a href="chester.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp" id="divPerrito12">
+        <div class="fotoGrilla"><img src="img/IMG/sam.jpg" alt="perrito12" /></div>
+        <div class="popUpPerritos">
+            <span class="close12" style="cursor: pointer" ;>&times;</span><br>
+            <h2 class="nombrePerrito">Sam</h2>
+            <h2>Labrador, 3 años</h2>
+            <h2>Vacunas: Si</h2>
+            <h2>Contacto: Maria petunia (+57) 305 678 98 33</h2>
+            <p>Fue encontrado en un río, donde fue arrojado junto con 8 sus hermanos… Solo sobrevivieron 4. Por fortuna,
+                un
+                héroe apareció para salvarle y darnos la oportunidad de disfrutar de su alegría y ternura.
+                <br><br>
+                <a href="sam.html"><b>Conoce más...</b></a>
+            </p>
+            <div class="buttonPerrito">
+                <a href="formularioQuieroAdoptar.html" target="_blank"><button class="botom">Adoptar</button> </a>
+                <a href="formularioQuieroApadrinar.html" target="_blank"><button>Apadrinar</button> </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div><a href=""><button class="chat"><img src="img/Componentchat2.png" alt=""></button></a></div>
+    <!--por favor poner nombre del archivo js-->
+    <script src="js/adoptar.js"></script>
+    <script src="js/contador.js"></script>
+
+</body>
+​
+
+</html>

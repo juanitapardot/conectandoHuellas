@@ -1,0 +1,29 @@
+/*-----FOOTER----- */
+.footer {
+  display: grid;
+  background-color: #000000;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.desarrollado {
+  color: #7bd7e4;
+  font-family: "Manjari", sans-serif;
+  text-align: left;
+  display: table;
+}
+.i {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo {
+  order: 1;
+}
+.centradoimg {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 70px;
+}
+/*-----FIN FOOTER----- */

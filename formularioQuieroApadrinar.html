@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styleFormularios.css" />
+  <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet" />
+  <title>Formulario Quiero apadrinar</title>
+</head>
+
+<body>
+  <header></header>
+  <div class="contenido">
+    <table class="centradotabla">
+      <tr>
+        <td><img class="img" src="img/PerroPadrino.png" alt="logo formulario" /></td>
+        <td>
+          <h1 class="titulo">Un perrito encontro un padrino</h1>
+          <p class="descripcion">
+            Gracias por abrir tu corazón y dar un poco de ti a estos angelitos perrunos,
+            cada aporte es muy valioso y estamos muy felices de contar con tu ayuda...
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <form action="">
+    <table class="formulario">
+      <tr>
+        <td>
+          <h1 class="informacion">Nombres y apellidos *</h1>
+          <input id="nombre" type="text" name="nombrePadrino" placeholder="Ingresa tu nombre" autofocus="autofocus"
+            required />
+            <br>
+            <small id="mensajenombre"></small>
+          <h1 class="informacion">Documento de identidad *</h1>
+          <input id="identificacion" type="text" name="documentoPadrino" placeholder="Ingresa tu documento de identidad"
+            required />
+          <h1 class=" informacion">Teléfono*</h1>
+          <input id="telefono" type="text" name="telefonoAdoptante" placeholder="Ingresa tu teléfono" required />
+          <br>
+          <small id="mensajeinformacion"></small>
+          <h1 class="informacion">Correo electrónico*</h1>
+          <input id="email" type="email" name="emailPadrino" placeholder="Ingresa tu E-mail" required />
+          <h1 class="informacion">Valor de aporte*</h1>
+          <label>
+
+
+            <input id="aporte" type="text" name="aportePadrino" placeholder="Ingresa el valor de tu aporte" required />
+            <br>
+          <small id="mensajeaporte"></small>
+          </label>
+
+          <h1 class="informacion">Fecha de nacimiento*</h1>
+          <input id="fecha" type="date" name="documentoAdoptante" required />
+          <br> </br>
+          <button class="boton" id="enviar" onclick="">Postularme</button>
+
+        </td>
+      </tr>
+    </table>
+  </form>
+  <div id="felicitaciones1"  class="modal">
+      <div class="modal-content">
+          <span class="cerrar">&times;</span>
+    <img src="img/perrito.svg" alt="perrito">
+    <h1 class="titulo pop">Futuro Padre</h1>
+    <p  class="informacion pop">Ya casi terminas el proceso de adopción, tu formulario va a ser 
+        evaluado para garantizar que este lindo perro quede en muy buenas
+        manos. <br>¡Nos comunicaremos muy pronto!</p>
+
+    <a href="index.html"><button class="boton">Gracias</button></a>
+    </div>
+</div>
+<script src="js/modal.js"></script>
+<script src="js/js3.js"></script>
+</body>
+
+</html>
